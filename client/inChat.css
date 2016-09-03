@@ -1,0 +1,54 @@
+body {
+    background-image: url("background_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+	position: relative;
+	top: 5%;
+    left: 43%;
+    color: orange;
+}
+
+h2 {
+	position: relative;
+    left: 44%;
+    color: yellow;
+}
+
+h3 {
+	position: relative;
+    left: 35%;
+    color: cyan;
+}
+
+
+textarea {
+	position: relative;
+    left: 35%;
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+    display: block;
+}
+
+input[type="text"] {
+	position: relative;
+    left: 35%;
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+input[type="button"] {
+	position: relative;
+    left: 47%;
+    width: 100px;
+    background-color: yellow;
+    display: block;
+    font-size: 16px;
+    color: blue;
+}

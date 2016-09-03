@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="inChat.css">
+	<meta charset="UTF-8">
+	<title>InChat</title>
+</head>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="InChat.js"></script>
+
+<body>
+
+	<p><h1>FSE Chat Room</h1></p>
+
+	<p><h2>Welcome <script>document.write(name)</script>!</h2></p>
+	<p><h3>History</h3></p>
+	<textarea readonly rows="10" cols="50" id = "history"></textarea>
+	<p><h3>Input Field</h3></p>
+	<input type = "text" id = "entry">
+	<p></p>
+	<input type = "button" value = "Post" onClick="post()">
+	<p></p>
+	<input type = "button" value = "Quit" onClick="quit()">
+
+</body>
+
+</html>

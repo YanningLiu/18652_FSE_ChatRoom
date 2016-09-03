@@ -1,0 +1,33 @@
+body {
+    background-image: url("background_1.jpg");
+    background-size: cover;
+}
+
+h1 {
+	position: fixed;
+	top: 30%;
+    left: 43%;
+    color: orange;
+}
+
+input[type="button"] {
+	position: fixed;
+	top: 50%;
+    left: 45%;
+    width: 200px;
+    background-color: yellow;
+    display: block;
+    font-size: 16px;
+    color: blue;
+}
+
+input[type="text"] {
+	position: fixed;
+	top: 40%;
+    left: 40%;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
